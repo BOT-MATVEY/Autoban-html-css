@@ -1,0 +1,79 @@
+@media (max-width: 1255px) {
+  .header__navigation {
+    display: none !important; } }
+.header {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 87px;
+  background-color: #2E2E2E;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  max-width: 1400px;
+  box-sizing: border-box; }
+
+.header__autoban-logo {
+  width: 169px;
+  height: 41px; }
+
+.header__navigation {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0; }
+
+.header__search-block {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+  height: 34px;
+  width: 121px;
+  border: 1px solid white;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  opacity: 0.7; }
+  .header__search-block .search-icon {
+    width: 15px;
+    height: 16px; }
+  .header__search-block .search-input {
+    border-radius: 0px;
+    border: none;
+    max-width: 50px;
+    height: 15px;
+    background: none;
+    color: white; }
+
+.header__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 573px; }
+  .header__info .header__social_media_icon {
+    width: 34px;
+    height: 34px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    opacity: 0.7; }
+    .header__info .header__social_media_icon .img {
+      width: 16;
+      height: 18; }
+  .header__info .contact-info p {
+    margin: 0;
+    padding: 0; }
+  .header__info .contact-info .telephone-number {
+    font-size: 16px;
+    line-height: 19px; }
+  .header__info .contact-info * + p {
+    margin-top: 6px; }
+
+/*# sourceMappingURL=header.css.map */
